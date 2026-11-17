@@ -1,8 +1,3 @@
-"""Практическое занятие № 3.
-Свёрточные нейронные сети (CNN). Решение задач биометрии
-(распознавание лиц/отпечатков).
-"""
-
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist

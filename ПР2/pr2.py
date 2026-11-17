@@ -1,8 +1,3 @@
-"""Практическое занятие № 2.
-Однослойный и многослойный персептрон в задаче фильтрации трафика
-(бинарная классификация).
-"""
-
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -108,4 +103,3 @@ print("\n--- Сравнение моделей ---")
 print(f"Однослойный персептрон: {acc_single:.4f}")
 print(f"Многослойный персептрон: {acc_mlp:.4f}")
 print(f"Прирост точности: {(acc_mlp - acc_single) * 100:+.2f} п.п.")
-input()
