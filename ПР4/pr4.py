@@ -1,7 +1,3 @@
-"""Практическое занятие № 4.
-Генетические алгоритмы в криптографии (атака на простой шифр).
-"""
-
 import random
 import string
 from collections import Counter
